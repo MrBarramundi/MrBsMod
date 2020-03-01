@@ -2,17 +2,22 @@ package com.mrbarramundi.mrbsmod.init;
 
 import com.mrbarramundi.mrbsmod.MrBsMod;
 import com.mrbarramundi.mrbsmod.objects.blocks.DiamondBladedStonecutterBlock;
+import com.mrbarramundi.mrbsmod.objects.blocks.trees.LemonTree;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.LogBlock;
 import net.minecraft.block.OreBlock;
+import net.minecraft.block.SaplingBlock;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.WallBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item.Properties;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -30,6 +35,11 @@ public class BlockInit
 	public static final Block salt_block = null;
 	//Ore blocks
 	public static final Block bardi_ore = null;
+	//Tree related
+		//Saplings
+	public static final Block lemon_sapling = null;
+		//Logs
+	public static final Block lemon_log = null;
 	//Decoration blocks
 		//Slabs
 	public static final Block white_concrete_slab = null;
@@ -126,6 +136,11 @@ public class BlockInit
 		event.getRegistry().register(new WallBlock(Block.Properties.from(Blocks.OBSIDIAN)).setRegistryName("obsidian_wall"));
 		//Machine blocks
 		event.getRegistry().register(new DiamondBladedStonecutterBlock(Block.Properties.from(Blocks.STONECUTTER)).setRegistryName("diamond_bladed_stonecutter"));
+		//Tree related
+			//Saplings
+		//event.getRegistry().register(new SaplingBlock(new LemonTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0f).sound(SoundType.PLANT)).setRegistryName("lemon_sapling"));
+			//Logs
+		event.getRegistry().register(new LogBlock(MaterialColor.WOOD, Block.Properties.create(Material.WOOD, MaterialColor.OBSIDIAN).hardnessAndResistance(2.0f).sound(SoundType.WOOD)).setRegistryName("lemon_log"));
 	}
 	
 	@SubscribeEvent
@@ -180,5 +195,10 @@ public class BlockInit
 		event.getRegistry().register(new BlockItem(obsidian_wall, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("obsidian_wall"));
 		//Machine blocks
 		event.getRegistry().register(new BlockItem(diamond_bladed_stonecutter, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("diamond_bladed_stonecutter"));
+		//Tree related
+			//Saplings
+		event.getRegistry().register(new BlockItem(lemon_sapling, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("lemon_sapling"));
+			//Logs
+		event.getRegistry().register(new BlockItem(lemon_log, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("lemon_log"));
 	}
 }

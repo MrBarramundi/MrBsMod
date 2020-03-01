@@ -1,4 +1,4 @@
-package com.mrbarramundi.mrbsmod.world.gen;
+package com.mrbarramundi.mrbsmod.world.gen.feature;
 
 import com.mrbarramundi.mrbsmod.init.BlockInit;
 
@@ -14,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 
 
-public class BsOreGen {	
+public class BsModOreGen {	
 	
 	public static void generateOres()
 	{
