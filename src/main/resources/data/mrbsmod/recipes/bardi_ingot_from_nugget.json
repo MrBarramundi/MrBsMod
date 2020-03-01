@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mrbsmod:bardi_nugget"
+    }
+  },
+  "result": {
+    "item": "mrbsmod:bardi_ingot",
+    "count": 1
+  }
+}

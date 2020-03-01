@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "E",
+    "B"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "mrbsmod:bucket_two_eggs",
+    "count": 1
+  }
+}

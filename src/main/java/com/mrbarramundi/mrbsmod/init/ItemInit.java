@@ -31,14 +31,14 @@ public class ItemInit
 	public static final Item toast = null;
 	public static final Item bread_with_honey = null;
 	public static final Item toast_with_honey = null;
-	public static final Item bread_dough = null; //Add
+	public static final Item bread_dough = null;
 	// Food related
 	public static final Item bucket_one_egg = null;
 	public static final Item bucket_one_boiled_egg = null;	
 	public static final Item bucket_two_eggs = null;
 	public static final Item bucket_two_boiled_eggs = null;
 	public static final Item peeled_egg_shell = null;
-	public static final Item wheat_flour = null; //Add
+	public static final Item wheat_flour = null;
 	// Tools
 		//Custom materials
 			//Bardi
@@ -84,7 +84,6 @@ public class ItemInit
 	public static final Item bardi_axe_ih = null;
 	public static final Item bardi_shovel_ih = null;
 	public static final Item bardi_hoe_ih = null;
-	
 	// Other
 	public static final Item example_item = null;
 	public static final Item cork = null;
