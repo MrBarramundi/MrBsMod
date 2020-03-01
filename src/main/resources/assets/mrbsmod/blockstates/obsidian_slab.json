@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "mrbsmod:block/obsidian_slab" },
+        "type=top": { "model": "mrbsmod:block/obsidian_slab-top" },
+        "type=double": { "model": "block/obsidian" }
+    }
+}

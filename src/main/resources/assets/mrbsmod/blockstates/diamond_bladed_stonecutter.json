@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mrbsmod:block/diamond_bladed_stonecutter" },
+        "facing=south": { "model": "mrbsmod:block/diamond_bladed_stonecutter", "y": 180 },
+        "facing=west": { "model": "mrbsmod:block/diamond_bladed_stonecutter", "y": 270 },
+        "facing=east": { "model": "mrbsmod:block/diamond_bladed_stonecutter", "y": 90 }
+    }
+}

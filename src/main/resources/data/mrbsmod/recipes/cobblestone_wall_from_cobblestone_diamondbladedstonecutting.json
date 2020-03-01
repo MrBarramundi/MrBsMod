@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": "minecraft:cobblestone_wall",
+  "count": 2
+}

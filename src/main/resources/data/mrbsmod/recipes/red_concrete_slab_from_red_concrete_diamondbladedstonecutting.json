@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:red_concrete"
+  },
+  "result": "mrbsmod:red_concrete_slab",
+  "count": 3
+}

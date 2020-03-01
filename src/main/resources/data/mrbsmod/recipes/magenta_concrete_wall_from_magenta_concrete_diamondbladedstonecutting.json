@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:magenta_concrete"
+  },
+  "result": "mrbsmod:magenta_concrete_wall",
+  "count": 2
+}

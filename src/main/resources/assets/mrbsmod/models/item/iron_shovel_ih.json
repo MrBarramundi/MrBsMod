@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "mrbsmod:items/iron_shovel_ih"
+    }
+}

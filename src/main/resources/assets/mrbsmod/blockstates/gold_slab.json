@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "mrbsmod:block/gold_slab" },
+        "type=top": { "model": "mrbsmod:block/gold_slab-top" },
+        "type=double": { "model": "block/gold_block" }
+    }
+}

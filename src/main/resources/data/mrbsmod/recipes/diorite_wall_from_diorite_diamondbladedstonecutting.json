@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "minecraft:diorite_wall",
+  "count": 2
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "G#G"
+  ],
+  "key": {
+    "B": {
+      "item": "mrbsmod:iron_bar"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag",
+    "count": 1
+  }
+}

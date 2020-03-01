@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:white_concrete"
+  },
+  "result": "mrbsmod:white_concrete_slab",
+  "count": 3
+}

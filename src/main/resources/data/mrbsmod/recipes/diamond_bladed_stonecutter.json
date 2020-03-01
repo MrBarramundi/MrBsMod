@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "D#D"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "#": {
+      "item": "minecraft:stonecutter"
+    }
+  },
+  "result": {
+    "item": "mrbsmod:diamond_bladed_stonecutter",
+    "count": 1
+  }
+}

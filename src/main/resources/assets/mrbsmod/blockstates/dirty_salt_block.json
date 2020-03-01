@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "": [
+            { "model": "mrbsmod:block/dirty_salt_block" },
+            { "model": "mrbsmod:block/dirty_salt_block-mirrored" },
+            { "model": "mrbsmod:block/dirty_salt_block", "y": 180 },
+            { "model": "mrbsmod:block/dirty_salt_block-mirrored", "y": 180 },
+            { "model": "mrbsmod:block/dirty_salt_block", "x": 180 },
+            { "model": "mrbsmod:block/dirty_salt_block-mirrored", "x": 180 }
+        ]
+    }
+}

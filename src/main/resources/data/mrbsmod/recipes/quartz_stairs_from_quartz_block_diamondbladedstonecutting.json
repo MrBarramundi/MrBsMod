@@ -1,0 +1,8 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "minecraft:quartz_stairs",
+  "count": 2
+}

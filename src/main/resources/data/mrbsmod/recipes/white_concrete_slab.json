@@ -1,0 +1,15 @@
+{
+  "type": "mrbsmod:diamondbladedstonecutting",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "mrbsmod:white_concrete_slab",
+    "count": 6
+  }
+}

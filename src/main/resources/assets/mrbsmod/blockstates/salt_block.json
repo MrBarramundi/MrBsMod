@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "mrbsmod:block/salt_block" }
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "mrbsmod:block/iron_slab" },
+        "type=top": { "model": "mrbsmod:block/iron_slab-top" },
+        "type=double": { "model": "block/iron_block" }
+    }
+}

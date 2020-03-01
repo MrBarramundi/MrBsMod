@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "mrbsmod:block/example_block" },
+            { "model": "mrbsmod:block/example_block_mirrored" },
+            { "model": "mrbsmod:block/example_block", "y": 180 },
+            { "model": "mrbsmod:block/example_block_mirrored", "y": 180 }
+        ]
+    }
+}
