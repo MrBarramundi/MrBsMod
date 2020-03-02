@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "mrbsmod:block/lemon_log" },
+        "axis=z":   { "model": "mrbsmod:block/lemon_log", "x": 90 },
+        "axis=x":   { "model": "mrbsmod:block/lemon_log", "x": 90, "y": 90 }
+    }
+}

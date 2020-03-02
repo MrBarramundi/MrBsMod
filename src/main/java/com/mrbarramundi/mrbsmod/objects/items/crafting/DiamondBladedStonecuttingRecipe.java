@@ -2,7 +2,7 @@ package com.mrbarramundi.mrbsmod.objects.items.crafting;
 
 import com.google.gson.JsonObject;
 import com.mrbarramundi.mrbsmod.init.BlockInit;
-import com.mrbarramundi.mrbsmod.init.BsModRecipeSerializers;
+import com.mrbarramundi.mrbsmod.init.BsRecipeSerializers;
 
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
@@ -22,7 +22,7 @@ public class DiamondBladedStonecuttingRecipe extends SingleItemRecipe
 {
     public DiamondBladedStonecuttingRecipe(ResourceLocation id, String group, Ingredient ingredient, ItemStack stack)
     {
-        super(BsRecipeTypes.diamondbladedstonecutting, BsModRecipeSerializers.diamondbladedstonecutting, id, group, ingredient, stack);
+        super(BsRecipeTypes.diamondbladedstonecutting, BsRecipeSerializers.diamondbladedstonecutting, id, group, ingredient, stack);
     }
 
     @Override

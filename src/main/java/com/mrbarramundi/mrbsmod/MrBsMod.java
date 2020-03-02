@@ -5,8 +5,8 @@ import org.apache.logging.log4j.Logger;
 
 import com.mrbarramundi.mrbsmod.client.ClientHandler;
 import com.mrbarramundi.mrbsmod.init.ItemInit;
-import com.mrbarramundi.mrbsmod.world.biome.BsModBiomeFeatures;
-import com.mrbarramundi.mrbsmod.world.gen.feature.BsModOreGen;
+import com.mrbarramundi.mrbsmod.world.biome.BsBiomeFeatures;
+import com.mrbarramundi.mrbsmod.world.gen.feature.BsOreGen;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -64,8 +64,8 @@ public class MrBsMod
     @SubscribeEvent
     public static void loadCompleteEvent(FMLLoadCompleteEvent event)
     {
-    	BsModOreGen.generateOres();
-    	BsModBiomeFeatures.addLemonTrees(Biomes.PLAINS);
+    	BsOreGen.generateOres();
+    	BsBiomeFeatures.addLemonTrees(Biomes.PLAINS);
     }
     
     // Mod item groups

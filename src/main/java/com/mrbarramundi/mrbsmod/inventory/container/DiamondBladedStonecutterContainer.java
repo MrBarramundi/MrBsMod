@@ -2,7 +2,7 @@ package com.mrbarramundi.mrbsmod.inventory.container;
 
 import com.google.common.collect.Lists;
 import com.mrbarramundi.mrbsmod.init.BlockInit;
-import com.mrbarramundi.mrbsmod.init.BsModContainers;
+import com.mrbarramundi.mrbsmod.init.BsContainers;
 import com.mrbarramundi.mrbsmod.objects.items.crafting.BsRecipeTypes;
 import com.mrbarramundi.mrbsmod.objects.items.crafting.DiamondBladedStonecuttingRecipe;
 
@@ -49,7 +49,7 @@ public class DiamondBladedStonecutterContainer extends Container
 
     public DiamondBladedStonecutterContainer(int windowId, PlayerInventory playerInventory, final IWorldPosCallable callable)
     {
-        super(BsModContainers.diamondbladedstonecutting , windowId);
+        super(BsContainers.diamondbladedstonecutting , windowId);
         this.selectedRecipe = IntReferenceHolder.single();
         this.recipes = Lists.newArrayList();
         this.itemStackInput = ItemStack.EMPTY;

@@ -14,7 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 
 
-public class BsModOreGen {	
+public class BsOreGen {	
 	
 	public static void generateOres()
 	{

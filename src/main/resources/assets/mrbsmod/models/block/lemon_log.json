@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mrbsmod:blocks/example_block",
+        "side": "mrbsmod:blocks/salt_block"
+    }
+}

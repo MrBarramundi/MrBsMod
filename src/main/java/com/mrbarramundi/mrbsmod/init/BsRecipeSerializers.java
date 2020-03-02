@@ -18,7 +18,7 @@ import com.mrbarramundi.mrbsmod.objects.items.crafting.DiamondBladedStonecutting
  * Author: MrCrayfish
  */
 @Mod.EventBusSubscriber(modid = MrBsMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BsModRecipeSerializers
+public class BsRecipeSerializers
 {
     @SuppressWarnings("rawtypes")
 	private static final List<IRecipeSerializer> RECIPES = new ArrayList<>();

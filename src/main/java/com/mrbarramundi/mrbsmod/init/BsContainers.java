@@ -17,7 +17,7 @@ import com.mrbarramundi.mrbsmod.inventory.container.DiamondBladedStonecutterCont
  * Author: MrCrayfish
  */
 @Mod.EventBusSubscriber(modid = MrBsMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BsModContainers
+public class BsContainers
 {
     private static final List<ContainerType<?>> CONTAINER_TYPES = new ArrayList<>();
 
