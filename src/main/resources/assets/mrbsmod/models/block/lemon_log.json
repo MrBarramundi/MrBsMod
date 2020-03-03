@@ -1,7 +1,7 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "end": "mrbsmod:blocks/example_block",
-        "side": "mrbsmod:blocks/salt_block"
+        "end": "mrbsmod:blocks/lemon_log-top",
+        "side": "mrbsmod:blocks/lemon_log"
     }
 }
