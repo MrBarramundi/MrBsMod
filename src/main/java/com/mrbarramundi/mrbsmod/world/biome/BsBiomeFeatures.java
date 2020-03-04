@@ -18,9 +18,9 @@ import net.minecraft.world.gen.treedecorator.BeehiveTreeDecorator;
 
 public class BsBiomeFeatures extends DefaultBiomeFeatures {
 	
-	private static final BlockState OAK_LEAVES = Blocks.OAK_LEAVES.getDefaultState();
+	private static final BlockState lemon_leaves = BlockInit.lemon_leaves.getDefaultState();
 	private static final BlockState lemon_log = BlockInit.lemon_log.getDefaultState();	
-	public static final TreeFeatureConfig lemon_tree_config = (new TreeFeatureConfig.Builder(new SimpleBlockStateProvider(lemon_log), new SimpleBlockStateProvider(OAK_LEAVES), new BlobFoliagePlacer(2, 0))).baseHeight(3).heightRandA(2).foliageHeight(3).ignoreVines().decorators(ImmutableList.of(new BeehiveTreeDecorator(0.002F))).setSapling((net.minecraftforge.common.IPlantable)BlockInit.lemon_sapling).build();
+	public static final TreeFeatureConfig lemon_tree_config = (new TreeFeatureConfig.Builder(new SimpleBlockStateProvider(lemon_log), new SimpleBlockStateProvider(lemon_leaves), new BlobFoliagePlacer(2, 0))).baseHeight(3).heightRandA(2).foliageHeight(3).ignoreVines().decorators(ImmutableList.of(new BeehiveTreeDecorator(0.002F))).setSapling((net.minecraftforge.common.IPlantable)BlockInit.lemon_sapling).build();
 
 	public static void addLemonTrees(Biome biome) 
 	{		

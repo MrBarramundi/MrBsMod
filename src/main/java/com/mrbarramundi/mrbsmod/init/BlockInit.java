@@ -2,6 +2,7 @@ package com.mrbarramundi.mrbsmod.init;
 
 import com.mrbarramundi.mrbsmod.MrBsMod;
 import com.mrbarramundi.mrbsmod.objects.blocks.BsSaplingBlock;
+import com.mrbarramundi.mrbsmod.objects.blocks.CropLeavesBlock;
 import com.mrbarramundi.mrbsmod.objects.blocks.DiamondBladedStonecutterBlock;
 import com.mrbarramundi.mrbsmod.objects.blocks.trees.LemonTree;
 
@@ -39,6 +40,8 @@ public class BlockInit
 	public static final Block lemon_sapling = null;
 		//Logs
 	public static final Block lemon_log = null;
+		//Leaves
+	public static final Block lemon_leaves = null;
 	//Decoration blocks
 		//Slabs
 	public static final Block white_concrete_slab = null;
@@ -140,6 +143,8 @@ public class BlockInit
 		event.getRegistry().register(new BsSaplingBlock(new LemonTree(), Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0f).sound(SoundType.PLANT)).setRegistryName("lemon_sapling"));
 			//Logs
 		event.getRegistry().register(new LogBlock(MaterialColor.WOOD, Block.Properties.create(Material.WOOD, MaterialColor.WOOD).hardnessAndResistance(2.0f).sound(SoundType.WOOD)).setRegistryName("lemon_log"));
+			//Leaves
+		event.getRegistry().register(new CropLeavesBlock(Block.Properties.create(Material.PLANTS).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT).notSolid()).setRegistryName("lemon_leaves"));
 	}
 	
 	@SubscribeEvent
@@ -199,5 +204,7 @@ public class BlockInit
 		event.getRegistry().register(new BlockItem(lemon_sapling, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("lemon_sapling"));
 			//Logs
 		event.getRegistry().register(new BlockItem(lemon_log, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("lemon_log"));
+			//Leaves
+		event.getRegistry().register(new BlockItem(lemon_leaves, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName("lemon_leaves"));
 	}
 }
